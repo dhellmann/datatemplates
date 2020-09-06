@@ -28,6 +28,7 @@ import pkg_resources
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'reno.sphinxext',
     'sphinx.ext.intersphinx',
     'sphinx.ext.autodoc',
     'sphinxcontrib.datatemplates',
